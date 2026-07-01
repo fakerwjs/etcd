@@ -1,0 +1,48 @@
+# Build artifacts
+/bin/
+/dist/
+/build/
+/out/
+
+# Test & coverage
+*.test
+*.out
+coverage.out
+coverage.txt
+coverage.html
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Delve
+__debug_bin
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore etc directories except the repository-root ./etc tree.
+etc/
+!/etc/
+!/etc/**
